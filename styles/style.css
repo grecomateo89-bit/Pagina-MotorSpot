@@ -75,6 +75,24 @@ body {
     margin: 3px 0;
 }
 
+@media (max-width: 768px) {
+  .hero-content {
+    text-align: center;
+    padding: 3rem 1.5rem;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-button {
+    display: block;
+    margin: 1.5rem auto 0;  
+    font-size: 1rem;
+    padding: 10px 24px;
+  }
+}
+
 /*PAGINA MODELOS*/
 .main-modelos{
     background-color: rgb(16, 19, 25);
