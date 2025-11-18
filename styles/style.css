@@ -1,0 +1,231 @@
+/*PAGINA INDEX*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.bg-body-propio{
+    background-color: black;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover {
+    color: rgb(180, 180, 180);
+}
+.logo{
+    width: 150px;
+    height: 80px;
+}
+.hero {
+    width: 100%;
+    height: 80vh;
+    background-image:url(../images/Audi-S1_Hoonitron_Concept-2021.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.hero-content {
+    text-align: center;
+    color: white;
+}
+ .hero-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 40px;}
+.hero-button {
+    display: inline-block;
+    margin-right: 520px;
+    padding: 15px 40px;
+    background-color: rgb(106, 116, 135);
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 25px;
+}
+.hero-button:hover{
+    background-color: rgb(43, 52, 66);
+}
+.footer{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 20px 40px;
+    display: flex;
+    border-top: 1px solid #222;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    font-size: 14px;
+     min-width: 200px;
+}
+.footer-left {
+    text-align: left;
+}
+
+.footer-center {
+    text-align: center;
+}
+
+.footer-right {
+    text-align: right;
+}
+.footer p {
+    margin: 3px 0;
+}
+
+/*PAGINA MODELOS*/
+.main-modelos{
+    background-color: rgb(16, 19, 25);
+}
+.card{
+    width: 100%;
+     margin-bottom: 15px;
+    border-radius: 18px;
+    border: 1px solid #222;
+    background-color: rgb(31, 36, 48);
+    color: white;  
+}
+
+/*PAGINA INICIAR-SESION*/
+
+.main-iniciar-sesion {
+    background-color: rgb(16, 19, 25);
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+
+.login-box {
+    width: 100%;
+    max-width: 450px;
+    background-color: rgb(31, 36, 48);
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid #222;
+    color: white;
+}
+
+
+.login-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.login-subtitle {
+    font-size: 15px;
+    color: #aaa;
+    margin-bottom: 25px;
+}
+
+
+.input-group-text {
+    border-radius: 10px 0 0 10px !important;
+}
+
+.form-control {
+    border-radius: 0 10px 10px 0 !important;
+    border: none;
+}
+
+
+.login-btn {
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.login-btn:hover {
+    background-color: rgb(43, 52, 66);
+}
+
+
+.forgot-link {
+    font-size: 14px;
+    color: #70a7ff;
+    text-decoration: none;
+}
+
+.forgot-link:hover {
+    text-decoration: underline;
+}
+
+/*PAGINA NOSOTROS*/
+.main-nosotros {
+    background-color: rgb(16, 19, 25);
+    padding: 40px 20px;
+    color: white;
+}
+
+.nosotros-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.nosotros-header h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.nosotros-header p {
+    font-size: 18px;
+    color: rgb(180, 180, 180);
+}
+
+
+.nosotros-imagen img {
+    width: 100%;
+    height: 1500px;     
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+
+.nosotros-cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.nosotros-card {
+    background-color: rgb(31, 36, 48);
+    border: 1px solid #222;
+    padding: 25px;
+    border-radius: 18px;
+    width: 280px;
+    text-align: center;
+}
+
+.nosotros-card h2 {
+    margin-bottom: 10px;
+}
+
+/* PÁGINA CONTACTO */
+.main-contacto {
+  background-color: rgb(16, 19, 25);
+}
+
+.contacto-layout {
+  min-height: 80vh;
+}
+
+.contacto-img {
+  background-image: url("../images/AUDI R8 INTERIOR.jpg"); 
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+  min-height: 300px; 
+}
+
+@media (max-width: 767.98px) {
+  .contacto-layout {
+    min-height: auto;
+  }
+}

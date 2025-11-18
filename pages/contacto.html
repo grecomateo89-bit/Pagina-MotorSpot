@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&family=Roboto:wght@100;400;700;900&display=swap" rel="stylesheet">
+
+    <!-- CSS PERSONAL -->
+    <link rel="stylesheet" href="../styles/style.css">
+
+    <title>Contacto - MotorSpot</title>
+</head>
+
+<body>
+
+              <!-- NAVBAR -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-body-propio">
+            <div class="container-fluid">
+
+                <!-- LOGO -->
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../images/logo audi.jpg" alt="Logo MotorSpot" class="logo">
+                </a>
+
+                <!-- BOTÓN HAMBURGUESA -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- LINKS -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <!-- IZQUIERDA -->
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./modelos.html">Modelos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Contacto</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                        </li>
+                    </ul>
+
+                    <!-- DERECHA -->
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./iniciar-sesion.html">INICIAR SESIÓN</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    
+            <!--CONTENIDO PRINCIPAL-->
+    
+    <main class="main-contacto text-white">
+
+        <div class="container-fluid">
+            <div class="row g-0 contacto-layout">
+
+                <!-- COLUMNA IZQUIERDA (FORMULARIO) -->
+                <div class="col-12 col-md-4 p-4">
+                    <h1 class="h3 mb-3">Contacto</h1>
+                    <p class="mb-4">Envíanos tu consulta y te responderemos pronto.</p>
+
+                    <form>
+
+                        <!-- NOMBRE -->
+                        <div class="mb-3">
+                            <label class="form-label" for="nombre">Nombre</label>
+                            <input type="text" id="nombre" class="form-control" placeholder="Tu nombre">
+                        </div>
+
+                        <!-- EMAIL -->
+                        <div class="mb-3">
+                            <label class="form-label" for="email">Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="ejemplo@mail.com">
+                        </div>
+
+                        <!-- MENSAJE -->
+                        <div class="mb-3">
+                            <label class="form-label" for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" class="form-control" rows="4" placeholder="Escribe tu mensaje..."></textarea>
+                        </div>
+
+                        <!-- BOTÓN -->
+                        <button type="submit" class="btn btn-primary w-100">Enviar</button>
+
+                    </form>
+                </div>
+
+                <!-- COLUMNA DERECHA (IMAGEN) -->
+                <div class="col-12 col-md-8 contacto-img"></div>
+
+            </div>
+        </div>
+
+    </main>
+
+    
+          <!--FOOTER -->                
+    
+    <footer class="footer">
+        <div class="footer-left">
+            <h4>MotorSpot</h4>
+            <p>Pasión por los autos.</p>
+        </div>
+
+        <div class="footer-center">
+            <p>Buenos Aires, Argentina</p>
+            <p>motorspot@mail.com</p>
+        </div>
+
+        <div class="footer-right">
+            <p>© 2025 MotorSpot</p>
+            <p>Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
