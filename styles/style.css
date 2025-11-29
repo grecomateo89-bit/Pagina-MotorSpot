@@ -1,6 +1,9 @@
 /*PAGINA INDEX*/
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Nunito", "Roboto", system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", sans-serif;
+    background-color: rgb(16, 19, 25);
+    color: #ffffff;
 }
 .bg-body-propio{
     background-color: black;
