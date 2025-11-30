@@ -1,0 +1,16 @@
+.main-modelos {
+  background-color: $color-bg;
+}
+
+.card {
+  width: 100%;
+  margin-bottom: 15px;
+  @include card-base;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.4);
+  }
+}
+

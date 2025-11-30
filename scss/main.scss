@@ -1,0 +1,12 @@
+/* UTILITIES */
+@import "partials/utilities/variables";
+@import "partials/utilities/mixins";
+
+/* BASE */
+@import "partials/base/reset";
+@import "partials/base/general";
+
+/* COMPONENTS */
+@import "partials/components/header";
+@import "partials/components/buttons";
+@import "partials/components/cards";

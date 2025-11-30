@@ -1,0 +1,16 @@
+.nav-link {
+  color: $color-text;
+
+  &:hover {
+    color: $color-nav-hover;
+  }
+}
+
+.bg-body-propio {
+  background-color: black;
+}
+
+.logo {
+  width: 150px;
+  height: 80px;
+}

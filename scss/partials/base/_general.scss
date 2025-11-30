@@ -1,0 +1,193 @@
+/* ========= GENERALES ========= */
+
+body {
+  background-color: $color-bg;
+  color: $color-text;
+  font-family: $font-primary;
+}
+
+/* ========= HERO INDEX ========= */
+
+.hero {
+  width: 100%;
+  height: 80vh;
+  background-image: url("../images/Audi-S1_Hoonitron_Concept-2021.jpg");
+  background-size: cover;
+  background-position: center;
+  @include flex-center(flex-start, flex-start);
+}
+
+.hero-content {
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 60px;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+/* ========= FOOTER ========= */
+
+.footer {
+  background-color: black;
+  color: $color-text;
+  padding: 20px 40px;
+  @include flex-center(space-between, center);
+  flex-wrap: wrap;
+  gap: 40px;
+  font-size: 14px;
+  border-top: 1px solid $color-footer-border;
+  min-width: 200px;
+
+  p {
+    margin: 3px 0;
+  }
+}
+
+.footer-left {
+  text-align: left;
+}
+
+.footer-center {
+  text-align: center;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+/* ========= LOGIN ========= */
+
+.main-iniciar-sesion {
+  background-color: $color-bg;
+  min-height: 90vh;
+  @include flex-center(center, center);
+  padding: 30px 0;
+}
+
+.login-box {
+  width: 100%;
+  max-width: 450px;
+  background-color: $color-card-bg;
+  padding: 40px;
+  border-radius: 20px;
+  border: 1px solid $color-footer-border;
+  color: $color-text;
+}
+
+.login-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.login-subtitle {
+  font-size: 15px;
+  color: #aaa;
+  margin-bottom: 25px;
+}
+
+/* Bootstrap inputs */
+.input-group-text {
+  border-radius: 10px 0 0 10px !important;
+}
+
+.form-control {
+  border-radius: 0 10px 10px 0 !important;
+  border: none;
+}
+
+/* ========= NOSOTROS ========= */
+
+.main-nosotros {
+  background-color: $color-bg;
+  padding: 40px 20px;
+  color: $color-text;
+}
+
+.nosotros-header {
+  text-align: center;
+  margin-bottom: 40px;
+
+  h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 18px;
+    color: rgb(180, 180, 180);
+  }
+}
+
+.nosotros-imagen img {
+  width: 100%;
+  max-height: 700px; // para que no quede gigante
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.nosotros-cards {
+  @include flex-center(center, flex-start);
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.nosotros-card {
+  background-color: $color-card-bg;
+  border: 1px solid $color-footer-border;
+  padding: 25px;
+  border-radius: 18px;
+  width: 280px;
+  text-align: center;
+
+  h2 {
+    margin-bottom: 10px;
+  }
+}
+
+/* ========= CONTACTO ========= */
+
+.main-contacto {
+  background-color: $color-bg;
+}
+
+.contacto-layout {
+  min-height: 80vh;
+}
+
+.contacto-img {
+  background-image: url("../images/AUDI R8 INTERIOR.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 300px;
+}
+
+/* ========= RESPONSIVE ========= */
+
+@media (max-width: 768px) {
+  .hero {
+    @include flex-center(center, center);
+    text-align: center;
+  }
+
+  .hero-content {
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .contacto-layout {
+    min-height: auto;
+  }
+}
+

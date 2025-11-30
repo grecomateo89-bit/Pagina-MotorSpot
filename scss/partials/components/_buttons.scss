@@ -1,0 +1,37 @@
+// Botón genérico del sitio
+.btn-motorspot {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 500;
+  background-color: $color-primary;
+  border: 1px solid $color-primary;
+  color: $color-text;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $color-primary-dark;
+    border-color: $color-primary-dark;
+    color: $color-text;
+  }
+}
+
+// Botón de login reutiliza estilos
+.login-btn {
+  @extend .btn-motorspot;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 12px;
+}
+
+// Link “Olvidé mi contraseña”
+.forgot-link {
+  font-size: 14px;
+  color: #70a7ff;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,15 @@
+// Mixin genérico para flex
+@mixin flex-center($justify: center, $align: center) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+// Mixin base para cards
+@mixin card-base {
+  border-radius: 18px;
+  border: 1px solid $color-footer-border;
+  background-color: $color-card-bg;
+  color: $color-text;
+}
+
