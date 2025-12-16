@@ -196,6 +196,42 @@ body {
     min-height: auto;
   }
 }
+/* ========= GRID INFO INDEX ========= */
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin: 4rem auto;
+}
+
+.info-card {
+  background-color: rgb(31, 36, 48);
+  border: 1px solid #222;
+  border-radius: 18px;
+  padding: 24px;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.info-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+.info-card h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.info-card p {
+  font-size: 15px;
+  color: rgb(180, 180, 180);
+}
+
+/* RESPONSIVE GRID */
+@media (max-width: 768px) {
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+}
 /* COMPONENTS */
 .nav-link {
   color: #ffffff;
